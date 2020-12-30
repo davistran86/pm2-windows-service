@@ -12,6 +12,8 @@ See original documentation at [pm2-windows-service](https://github.com/jon-hall/
 
 ## Installation
 
+**NOTE:** Run these from an administrative command prompt to avoid getting hit with a bunch of UAC dialogs
+
 ### NPM config
 
 ```
