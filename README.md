@@ -30,14 +30,14 @@ You can see something like this in console:
 ...[PM2] Restoring processes located in C:\pm2\.pm2\dump.pm2
 ```
 
-You should use `C:\abc\.pm2` as your PM2_HOME
+You should use `C:\pm2\.pm2` as your PM2_HOME
 
 **NOTE:** If you are running pm2 as another user, you should put it in a location which is available to all users.
 
 ### Prerequisites
 
-- Add and set **PM2_HOME** in System environments (not user environments). Like: `PM2_HOME = C:\abc\.pm2` as above
-- Add `C:\abc\.pm2` to the existing system PATH variable (Then you are sure it will work - there has been some issues reported that PM2_HOME not always working).
+- Add and set **PM2_HOME** in System environments (not user environments). Like: `PM2_HOME = C:\pm2\.pm2` as above
+- Add `C:\pm2\.pm2` to the existing system PATH variable (Then you are sure it will work - there has been some issues reported that PM2_HOME not always working).
 
 ### Install
 
